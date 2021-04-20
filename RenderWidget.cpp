@@ -68,6 +68,12 @@ void RenderWidget::paintGL()
     //  glVertex2f(250, 400);
     //glEnd();
     
+
+
+
+
+
+    //*********************************************************Create the box ********************************
     //glBegin(GL_TRIANGLES);
     //glColor3f(1.0, 1.0, 1.0);   // white
     //glVertex2f(100, 100);
@@ -91,13 +97,18 @@ void RenderWidget::paintGL()
     //glVertex2f(100, 400);
     //glEnd();
    
+
+
+
+
+    //  *******************************************************   Make a corner-based triangle*************************************
     //glBegin(GL_TRIANGLES);
     //glColor3f(1.0, 1.0, 0.0);   // yellow
     //glVertex2f(180,40);
     //
     //glVertex2f(400, 40);
     //
-    //glVertex2f(180,180);//��������
+    //glVertex2f(180,180);
     //glEnd();
 
 
@@ -105,14 +116,14 @@ void RenderWidget::paintGL()
 
 
 
-
+    //********************************************   Creating a quintet ******************************************
 
     glBegin(GL_TRIANGLES);
 
     glColor3f(0.0, 0.0, 1.0);   // blue
     glVertex2f(80, 40);
-    glVertex2f(380, 40);
-    glVertex2f(500, 200);
+    glVertex2f(360, 40);
+    glVertex2f(480, 200);
     
     
     glEnd();
@@ -120,8 +131,8 @@ void RenderWidget::paintGL()
 
     glColor3f(0.0, 0.0, 1.0);   // blue
     glVertex2f(80, 40);
-    glVertex2f(500, 200);
-    glVertex2f(230, 300);
+    glVertex2f(480, 200);
+    glVertex2f(230, 330);
 
 
 
@@ -131,12 +142,54 @@ void RenderWidget::paintGL()
 
     glColor3f(0.0, 0.0, 1.0);   // blue
    
-    glVertex2f(230, 300);
-    glVertex2f(20, 200);
+    glVertex2f(230, 330);
+    glVertex2f(0, 200);
     glVertex2f(80, 40);
 
 
     glEnd();
+
+
+
+    //glBegin(GL_TRIANGLES);
+    //  glColor3f(1.0, 0.0, 0.0);   // red
+    //  glVertex2f(80, 80);
+    //  glVertex2f(360, 80);
+    //  glVertex2f(230, 300);
+
+    //glEnd();
+
+    //*******************************************Creating triangles*******************************************
+    glBegin(GL_TRIANGLES);
+      glColor3f(0.0, 1.0, 0.0);   // green
+      glVertex2f(80, 80);
+      glVertex2f(360, 80);
+      glColor3f(1.0, 0.0, 0.0);   // red
+     glVertex2f(230,150);
+    glEnd();
+
+
+
+
+    glBegin(GL_TRIANGLES);
+        glColor3f(0.0, 1.0, 0.0);   // green
+        glVertex2f(360, 80);
+        glColor3f(1.0, 0.0, 0.0);   // red
+        glVertex2f(230, 150);
+        glColor3f(0.0, 1.0, 0.0);   // green
+        glVertex2f(230, 300);
+    glEnd();
+
+
+    glBegin(GL_TRIANGLES);
+        glColor3f(0.0, 1.0, 0.0);   // green
+        glVertex2f(80, 80);
+        glVertex2f(230, 300);
+        glColor3f(1.0, 0.0, 0.0);   // red
+        glVertex2f(230, 150);
+    glEnd();
+
+
 
 
 
