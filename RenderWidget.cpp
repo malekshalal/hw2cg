@@ -52,12 +52,12 @@ void RenderWidget::paintGL()
 //    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 //   glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
 
-    glBegin(GL_TRIANGLES);
-      glColor3f(1.0, 0.0, 0.0);   // red
-      glVertex2f(100, 100);
-      glVertex2f(400, 100);
-      glVertex2f(250, 400);
-    glEnd();
+    //glBegin(GL_TRIANGLES);
+    //  glColor3f(1.0, 0.0, 0.0);   // red
+    //  glVertex2f(100, 100);
+    //  glVertex2f(400, 100);
+    //  glVertex2f(250, 400);
+    //glEnd();
     
     //glBegin(GL_TRIANGLES);
     //  glColor3f(1.0, 0.0, 0.0);   // red
@@ -67,10 +67,75 @@ void RenderWidget::paintGL()
 	   // glColor3f(0.0, 0.0, 1.0);   // blue
     //  glVertex2f(250, 400);
     //glEnd();
+    
+    //glBegin(GL_TRIANGLES);
+    //glColor3f(1.0, 1.0, 1.0);   // white
+    //glVertex2f(100, 100);
+    //glColor3f(0.3, 0.3, 0.3);   // gray 
+
+    //glVertex2f(400, 100);
+    //glColor3f(0.3, 0.3, 0.3);   // gray 
+    //glVertex2f(100, 400);
+    //glEnd();
+
+
+    //glBegin(GL_TRIANGLES);
+    //glColor3f(1.0, 1.0, 1.0);   // white
+    //glVertex2f(400, 400);
+    //glColor3f(0.3, 0.3, 0.3);   // gray 
+    //glVertex2f(400, 100);
+    //glColor3f(0.3, 0.3, 0.3);   // gray 
+    //glVertex2f(100, 400);
+    //glEnd();
+   
+    //glBegin(GL_TRIANGLES);
+    //glColor3f(1.0, 1.0, 0.0);   // yellow
+    //glVertex2f(180,40);
+    //
+    //glVertex2f(400, 40);
+    //
+    //glVertex2f(180,180);//��������
+    //glEnd();
 
 
 
-  
+
+
+
+
+
+    glBegin(GL_TRIANGLES);
+
+    glColor3f(0.0, 0.0, 1.0);   // blue
+    glVertex2f(80, 40);
+    glVertex2f(380, 40);
+    glVertex2f(500, 200);
+    
+    
+    glEnd();
+    glBegin(GL_TRIANGLES);
+
+    glColor3f(0.0, 0.0, 1.0);   // blue
+    glVertex2f(80, 40);
+    glVertex2f(500, 200);
+    glVertex2f(230, 300);
+
+
+
+    glEnd();
+
+    glBegin(GL_TRIANGLES);
+
+    glColor3f(0.0, 0.0, 1.0);   // blue
+   
+    glVertex2f(230, 300);
+    glVertex2f(20, 200);
+    glVertex2f(80, 40);
+
+
+    glEnd();
+
+
 
     glFlush();
 }
