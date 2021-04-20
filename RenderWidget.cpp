@@ -78,7 +78,10 @@ void RenderWidget::paintGL()
     //glVertex2f(100, 400);
     //glEnd();
 
+ 
 
+
+ 
     //glBegin(GL_TRIANGLES);
     //glColor3f(1.0, 1.0, 1.0);   // white
     //glVertex2f(400, 400);
